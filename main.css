@@ -5,18 +5,18 @@ body {
 	margin: 0 !important;
 }
 
-.l {
-	height: 100vh;
-	width: 100vw;
-	margin: 0 !important;
-	padding: 0 !important;
-	/*overflow-y: hidden;*/
-}
-
 /* if laptop */
 @media screen and (min-width: 1100px) {
 	.m{
 		display: none;
+	}
+
+	.l {
+		height: 100vh;
+		width: 100vw;
+		margin: 0 !important;
+		padding: 0 !important;
+		/*overflow-y: hidden;*/
 	}
 
 	.sidebar {
@@ -56,7 +56,7 @@ body {
 		color: #9f9f9f;
 	}
 
-	.description > ol > li:not(:last-child) { 
+	.description > ol > li { 
 	   margin-bottom: 3vh;  
 	}
 
@@ -236,7 +236,7 @@ body {
 
 	.title {
 		font-family: Poppins, Sans-serif;
-		font-size: 2em;
+		font-size: 3.5em;
 		font-weight: 600;
 		color: #000000;
 		opacity: 1;
@@ -244,7 +244,7 @@ body {
 
 	.updates {
 		font-family: Poppins, Sans-serif;
-		font-size: 1.2em;
+		font-size: 2em;
 		letter-spacing: 0px;
 		color: #9f9f9f;
 		opacity: 1;
@@ -252,7 +252,7 @@ body {
 
 	.down-carat {
 		font-family: monospace;
-		font-size: 2em;
+		font-size: 3.5em;
 		font-weight: 600;	
 		width: 60vw;
 		text-align: center;
@@ -272,6 +272,7 @@ body {
 
 		display: flex;
 		flex-direction: column;
+		justify-content: space-around;
 	}
 
 	.scores {
@@ -295,7 +296,7 @@ body {
 	}
 
 	.scores > .two, .scores > .three, .scores > .four, .scores > .five {
-		font-size: 1.5em;
+		font-size: 2em;
 	}
 
 	/*red*/
@@ -304,7 +305,7 @@ body {
 		height: 60vh;
 		background: transparent linear-gradient(0deg, #EC464A 0%, #F37377 100%) 0% 0% no-repeat padding-box;
 
-		font-size: 2em;
+		font-size: 3.5em;
 	}
 
 	/*yellow*/
@@ -365,9 +366,14 @@ body {
 
 		text-align: left;
 		font-family: Poppins, Sans-serif;
-		font-size: 1em;
+		font-size: 2em;
 		color: #9f9f9f;
 		opacity: 1;
+	}
+
+	.description > ol {
+		margin-top: 2vh;
+		margin-bottom: 2vh;
 	}
 
 	.description > ol > li {
