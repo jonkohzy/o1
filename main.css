@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+body {
+	margin: 0 !important;
+}
+
+.l {
+	height: 100vh;
+	width: 100vw;
+	margin: 0 !important;
+	padding: 0 !important;
+	/*overflow-y: hidden;*/
+}
+
+.sidebar {
+	display: inline-block;
+	margin: 0 !important;
+	height: 100%;
+	width: 20vw;
+	background: #F4F6F8 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+.o1-logo {
+	width: 75%;
+	margin-left: 12.5%;
+	margin-right: 12.5%;
+	margin-top: 7.5vh;
+}
+
+.description {
+	width: 75%;
+	margin-left: 12.5%;
+	margin-right: 12.5%;
+	margin-top: 40px;
+
+	display: flex;
+	flex-direction: column;
+
+	text-align: left;
+	font-family: Poppins;
+	font-size: 1.2em;
+	letter-spacing: 0px;
+	color: #D0D0D0;
+	opacity: 1;
+}
+
+.description > ol > li {
+	color: #D0D0D0;
+}
+
+.description > ol > li:not(:last-child) { 
+   margin-bottom: 3vh;  
+}
+
+.hcunite {
+	color: #D0D0D0;
+	text-decoration: underline;
+}
+
+.hcunite:visited {
+	color: #D0D0D0;
+}
+
+.main {
+	position: absolute;	 
+	display: inline-block;
+	margin: 0 !important;
+	height: 100%;
+	width: 80%;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+.header {
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+
+	margin-top: 7.5vh;
+	margin-left: 6%;
+	margin-right: 6%;
+}
+
+.title {
+	display: inline-block;
+
+	text-align: left;
+	font-family: Poppins;
+	font-size: 2em;
+	font-weight: 600;
+	letter-spacing: 0px;
+	color: #000000;
+	opacity: 1;
+}
+
+.updates {
+	display: inline-block;
+	float: right;
+
+	text-align: right;
+	font-family: Poppins;
+	font-size: 1em;
+	letter-spacing: 0px;
+	color: #D0D0D0;
+	opacity: 1;
+}
+
+.scores {
+	margin-top: 4%;
+	margin-left: 6%;
+	margin-right: 6%;
+}
+
+.scores > div {
+	display: flex;
+	align-items: center;
+
+	border-radius: 20px;
+	opacity: 1;
+	color: #FFFFFF;
+	font-family: Poppins, Sans-serif;
+	font-weight: 600;
+}
+
+.scores > .two, .scores > .three, .scores > .four, .scores > .five {
+	font-size: 2em;
+}
+
+/*red*/
+.one {
+	width: 100%;
+	height: 16.7vh;
+	background: transparent linear-gradient(90deg, #EC464A 0%, #F37377 100%) 0% 0% no-repeat padding-box;
+
+	font-size: 3.5em;
+}
+
+/*yellow*/
+.two {
+	margin-top: 6vh;
+	width: calc((75000/100000)*100%);
+	height: 10vh;
+	background: transparent linear-gradient(90deg, #EBB244 0%, #FADCA5 100%) 0% 0% no-repeat padding-box;	
+}
+
+/*green*/
+.three {
+	margin-top: 3vh;
+	width: calc((70000/100000)*100%);
+	height: 10vh;
+	background: transparent linear-gradient(90deg, #70AE77 0%, #ABE8B0 100%) 0% 0% no-repeat padding-box;
+}
+
+/*blue*/
+.four {
+	margin-top: 3vh;
+	width: calc((55000/100000)*100%);
+	height: 10vh;
+	background: transparent linear-gradient(90deg, #4665F5 0%, #AAB6F0 100%) 0% 0% no-repeat padding-box;
+}
+
+/*pink?*/
+.five {
+	margin-top: 3vh;
+	width: calc((50000/100000)*100%);
+	height: 10vh;
+	background: transparent linear-gradient(90deg, #F1A9CF 0%, #FBD5EA 100%) 0% 0% no-repeat padding-box;
+}
+
+.place {
+	padding-left: 4vh; 
+}
+
+.og {
+	margin-left: 8vh;
+}
+
+.score {
+	margin-right: 4vh;
+
+	flex: 1;
+	text-align: right;
+}
