@@ -7,6 +7,25 @@
 	<link rel="stylesheet" href="main.css">
 	<link rel="icon" href="favicon.ico">
 	<script src="js/main.js"></script>
+	<script type="text/javascript">
+		function landscapePhone() {
+
+			var h = window.innerHeight;
+			var w = window.innerWidth;
+			// console.log(h+" -- "+w)
+			if (h < w && w < 1100) {
+				window.alert("please use portrait mode for the best viewing experience");
+			}
+			// console.log("h: "+h+", w: "+w+"...\n")
+		}
+
+
+		var intervalId = window.setInterval(function(){
+			landscapePhone();
+		}, 10000);
+
+		// clearInterval(intervalId);
+	</script>
 </head>
 <body>
 	<!-- laptop -->
