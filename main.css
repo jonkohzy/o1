@@ -36,7 +36,7 @@ span {
 		width: 75%;
 		margin-left: 12.5%;
 		margin-right: 12.5%;
-		margin-top: 7.5vh;
+		margin-top: 5vh;
 	}
 
 	.description {
@@ -61,7 +61,7 @@ span {
 	}
 
 	.description > ol > li { 
-	   margin-bottom: 3vh;  
+	   /*margin-bottom: 3vh;  */
 	}
 
 	.hcunite {
@@ -88,7 +88,7 @@ span {
 		align-items: baseline;
 		justify-content: space-between;
 
-		margin-top: 7.5vh;
+		margin-top: 5vh;
 		margin-left: 6%;
 		margin-right: 6%;
 	}
