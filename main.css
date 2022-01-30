@@ -356,14 +356,10 @@ span {
 	.score {
 		display: flex;
 		align-items: center;
-		justify-content: right;
+		justify-content: left;
 		margin-top: 4vh;
 		flex: 1;
-		text-align: right;
 		writing-mode: vertical-rl;
-		transform: rotate(-180deg);
-		-webkit-transform: rotate(-180deg);
-	    -moz-transform: rotate(-180deg);
 	}
 
 	.description {
