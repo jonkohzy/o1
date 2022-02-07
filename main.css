@@ -220,22 +220,22 @@ span {
 
 	/*yellow*/
 	.two {
-		width: calc((75000/100000)*100%) !important;
+		width: calc((25/30)*100%) !important;
 	}
 
 	/*green*/
 	.three {
-		width: calc((70000/100000)*100%) !important;
+		width: calc((20/30)*100%) !important;
 	}
 
 	/*blue*/
 	.four {
-		width: calc((55000/100000)*100%) !important;
+		width: calc((20/30)*100%) !important;
 	}
 
 	/*pink?*/
 	.five {
-		width: calc((50000/100000)*100%) !important;
+		width: calc((20/30)*100%) !important;
 	}
 }
 
@@ -257,22 +257,22 @@ span {
 
 	/*yellow*/
 	.two {
-		height: calc((75000/100000)*60vh) !important;
+		height: calc((25/30)*60vh) !important;
 	}
 
 	/*green*/
 	.three {
-		height: calc((70000/100000)*60vh) !important;
+		height: calc((20/30)*60vh) !important;
 	}
 
 	/*blue*/
 	.four {
-		height: calc((55000/100000)*60vh) !important;
+		height: calc((20/30)*60vh) !important;
 	}
 
 	/*pink?*/
 	.five {
-		height: calc((50000/100000)*60vh) !important;
+		height: calc((20/30)*60vh) !important;
 	}
 
 
