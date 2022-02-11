@@ -220,22 +220,22 @@ span {
 
 	/*yellow*/
 	.two {
-		width: calc((190/305)*100%) !important;
+		width: calc((430/630)*100%) !important;
 	}
 
 	/*green*/
 	.three {
-		width: calc((185/305)*100%) !important;
+		width: calc((330/630)*100%) !important;
 	}
 
 	/*blue*/
 	.four {
-		width: calc((180/305)*100%) !important;
+		width: calc((305/630)*100%) !important;
 	}
 
 	/*pink?*/
 	.five {
-		width: calc((165/305)*100%) !important;
+		width: calc((295/630)*100%) !important;
 	}
 }
 
@@ -257,22 +257,22 @@ span {
 
 	/*yellow*/
 	.two {
-		height: calc((190/305)*60vh) !important;
+		height: calc((430/630)*60vh) !important;
 	}
 
 	/*green*/
 	.three {
-		height: calc((185/305)*60vh) !important;
+		height: calc((330/630)*60vh) !important;
 	}
 
 	/*blue*/
 	.four {
-		height: calc((180/305)*60vh) !important;
+		height: calc((305/630)*60vh) !important;
 	}
 
 	/*pink?*/
 	.five {
-		height: calc((165/305)*60vh) !important;
+		height: calc((295/630)*60vh) !important;
 	}
 
 
